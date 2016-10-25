@@ -1,0 +1,15 @@
+$primary: #F38181;
+$secondary: #FCE38A;
+
+$success: #61D885;
+$error: #D86161;
+
+$background: #FFFCFC;
+$text: #222222;
+
+$color-states: (
+  ("primary", $primary, #FFFFFF),
+  ("secondary", $secondary, #FFFFFF),
+  ("success", $success, #FFFFFF),
+  ("error", $error, #FFFFFF),
+)
