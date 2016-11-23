@@ -1,0 +1,7 @@
+@mixin hue-gradient($color) {
+  background: linear-gradient(to right,$color,adjust-color($color, $hue: -40deg) 60%);
+}
+
+@mixin darken-gradient($color) {
+  background: linear-gradient(to right,$color,darken($color,5%) 60%);
+}
